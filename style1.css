@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  background: black;
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+canvas {
+  background: #111;
+  display: block;
+  margin: 0 auto;
+  touch-action: none;
+}
+
+.controls button {
+  width: 60px;
+  height: 60px;
+  font-size: 20px;
+  margin: 5px;
+  background: #444;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.settings {
+  margin: 10px 0;
+}
+
+.settings label {
+  display: inline-block;
+  margin: 5px 10px;
+  color: white;
+}
+
+.score {
+  margin: 10px;
+  font-size: 20px;
+}
+
+#restartBtn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background: #222;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+
+.ranking {
+  margin: 20px auto;
+  width: 300px;
+  text-align: left;
+  background: #222;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.ranking h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.ranking ol {
+  padding-left: 20px;
+  color: #0f0;
+}
+
+body.light-theme {
+  background: #f0f0f0;
+  color: #000;
+}
+
+body.light-theme canvas {
+  background: #ddd;
+}
+
+body.light-theme .controls button,
+body.light-theme #restartBtn {
+  background: #ccc;
+  color: #000;
+}
+
+body.light-theme .ranking {
+  background: #eee;
+  color: #000;
+}
